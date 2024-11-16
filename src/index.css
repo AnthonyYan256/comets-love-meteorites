@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-decoration: none;
+
+  color-scheme: dark;
+  color: #FFFFFF;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin-top: 108px; /* Adjust this value based on your nav height */
+}
+
+/* Header */
+/* Navigation Bar */
+
+nav {
+  list-style-type: none;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the nav stays on top of other content */
+  overflow: hidden;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 80px;
+  margin-left: 25px;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  display: inline;
+  cursor: pointer;
+}
+
+li.navLinks {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li.navLinks:hover {
+  background-color: #dbdbdb;
+}
+
+/* Links */
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+/* Text */
+.firaFont {
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+  font-weight: 400;
+}
+
+/* Cards */
+.card {
+  border: 1px solid hsl(0,0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  max-width: 320px;
+}
+
+/* About */
+.profilePicture {
+  max-width: 90%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-subtitle {
+  margin: 0;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
